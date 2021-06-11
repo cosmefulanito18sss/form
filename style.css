@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color: orange; 
+	background-color:gray;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+form{
+	background-color:whitesmoke;\
+	width:100%;
+	flex-direction:column;
+	
+}
+#formulario {
+	background-image:url("frame.jpg");
+	background-size:cover;
+	opacity:0.9;
+}
+
+#formulario h3 {
+	font-size:30px;
+	padding-top:25px;
+	padding-left:25px;
+}
+h3:hover{
+	color:white;
+}
+#formulario h4 {
+	color:black;
+	font-size:15px;
+	padding-left:25px;
+	padding-top:5px;
+	
+}
+
+fieldset {
+	border: medium none !important;
+	width:90%;
+	padding: 10px 5%;
+	justify-content:center;
+}
+
+#formulario .entrada {
+	width:110%;
+}
+
+#formulario textarea {
+	width:110%;
+	height:100px;
+}
+
+#formulario button {
+	cursor:pointer;
+	background-color:orange;
+	width:110%;
+	height:40px;
+}
+button:hover{
+	opacity:0.8;
+}
